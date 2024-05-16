@@ -4,13 +4,13 @@
   box-sizing: border-box;
   /* background-color: black; */
 }
-body{
-	animation-name: fade;
-	animation-duration: 1s;
+body {
+  animation-name: fade;
+  animation-duration: 1s;
 }
 
-table{
-	margin-bottom: 2vh;
+table {
+  margin-bottom: 2vh;
 }
 
 table,
@@ -96,15 +96,18 @@ input::placeholder {
 }
 
 @media screen and (max-width: 640px) {
-  td {
-    font-size: 14px;
-  }
-
   th,
   td {
     padding-top: 5px;
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 20px;
+  }
+
+  th {
+    font-size: 14px;
+  }
+  td {
+    font-size: 12px;
   }
 }
